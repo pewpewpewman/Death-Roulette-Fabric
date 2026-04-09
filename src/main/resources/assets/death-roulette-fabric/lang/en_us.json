@@ -1,0 +1,15 @@
+{
+  "death-roulette-fabric.inventory_cleared_title": "☠ BAD LUCK! ☠",
+  "death-roulette-fabric.inventory_cleared_server_message": "%s has lost all of their items!",
+
+  "text.config.death_roulette_config.title": "Death Roulette Fiddling",
+
+  "text.config.death_roulette_config.option.invWipeChance": "Inventory Wipe Chance",
+  "text.config.death_roulette_config.option.invWipeChance.tooltip": "The chance that some poor schmuck gets\nall their hard work torn away from them.",
+
+  "text.config.death_roulette_config.option.useReallyReallyStupidInvWipeSound": "Use Really Really Stupid Inventory Wipe Sound",
+  "text.config.death_roulette_config.option.useReallyReallyStupidInvWipeSound.tooltip": "Use a way worse sound for when your inventory gets wiped courtesy\nof https://www.youtube.com/watch?v=WMWgbTpStzU \n (Unless you have \"Don't Add To Sound Registry\" enabled, then \n vanilla Minecraft's stupidest sound is used).",
+
+  "text.config.death_roulette_config.option.dontAddToSoundRegistry": "Don't Add To Sound Registry",
+  "text.config.death_roulette_config.option.dontAddToSoundRegistry.tooltip": "Set this to true if you would rather use base game sounds\nand not modify the sound registry, that way, people\ndon't need to install death roulette to join a server using it."
+}

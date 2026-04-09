@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "death-roulette-fabric",
+	"version": "${version}",
+	"name": "Death Roulette Fabric",
+	"description": "This mod will, if keep inventory is enabled, add a random chance (configurable in the config) for inventory wipe on death!",
+	"authors": [
+		"Pew Pew Man",
+		"Sourpuss made me do this though, I was only following orders"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"icon": "assets/pack.png",
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pewpewman.deathroulettefabric.DeathRouletteFabric"
+		],
+		"client": [
+			"net.pewpewman.deathroulettefabric.client.DeathRouletteFabricClient"
+		]
+	},
+	"mixins": [
+		"death-roulette-fabric.mixins.json",
+		{
+			"config": "death-roulette-fabric.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
