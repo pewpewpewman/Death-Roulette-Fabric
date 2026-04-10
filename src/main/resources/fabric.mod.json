@@ -19,16 +19,9 @@
 		"main": [
 			"net.pewpewman.deathroulettefabric.DeathRouletteFabric"
 		],
-		"client": [
-			"net.pewpewman.deathroulettefabric.client.DeathRouletteFabricClient"
-		]
 	},
 	"mixins": [
 		"death-roulette-fabric.mixins.json",
-		{
-			"config": "death-roulette-fabric.client.mixins.json",
-			"environment": "client"
-		}
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
